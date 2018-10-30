@@ -3,7 +3,6 @@ def main():
     grade2 = int(input("Enter grade on final exam: "))
     grade3 =semesterGrade(grade1, grade2)
     print("Semester Grade:",grade3)
-
 def semesterGrade(grade1, grade2):
     score = (grade1+2*grade2)/3
     if score >= 90:
@@ -16,7 +15,6 @@ def semesterGrade(grade1, grade2):
         grade3 = 'D'
     else:
         grade3 = 'F'
-
     return grade3
 
-main();
+main()
